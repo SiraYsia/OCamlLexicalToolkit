@@ -33,6 +33,8 @@ accept nfa s:
 This function takes an NFA and a string (s). It determines whether the NFA accepts the string by simulating the NFA's transitions based on the input string and checking if it reaches an accept state.
 Part 2: DFAs
 
+Part2:
+
 In the second part of the project, the goal was to implement the nfa_to_dfa function, which converts an NFA to a DFA using the subset construction algorithm. The DFA is represented by the type ('q list, 's) nfa_t, where the states are sets of states from the NFA.
 
 To implement the nfa_to_dfa function, several helper functions were suggested:
